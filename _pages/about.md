@@ -7,12 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm **Xilin Zhang**, a Master's student in the **Robotics Institute at Carnegie Mellon University (CMU)**. I am fortunate to be advised by **[Your Advisor's Name]**, and I currently work within the CMU RI environment on research topics at the intersection of learning, control, and robotic manipulation.
+Hi! I'm **Xilin Zhang**, a Master's student in the **Robotics Institute** at **Carnegie Mellon University (CMU)**. I am fortunate to be advised by **Jeffrey Ichnowski**, and I currently work within the CMU RI environment on research topics about robotic manipulation.
 
-Before coming to CMU, I completed my undergraduate studies at **the University of Michigan–Ann Arbor**, where I developed strong interests in robotics, machine learning, and intelligent systems.
+Before coming to CMU, I completed my undergraduate studies at **Tianjin University**, where I developed strong interests in robotics, machine learning, and intelligent systems.
 
-
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
 A data-driven personal website
 ======
