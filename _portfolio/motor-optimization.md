@@ -6,7 +6,6 @@ excerpt: >
 collection: portfolio
 ---
 
-# Motor Design Optimization
 
 ## Introduction  
 High-torque, compact electric motors are essential for **robot manipulators, exoskeletons, and mobile platforms**. Increasing torque often introduces thermal or geometric constraints.  
