@@ -1,37 +1,31 @@
 ---
-title: "Electric Motor Design Optimization"
-excerpt: "Nonlinear constrained optimization of torque under thermal and electromagnetic limits."
+title: "Motor Design Optimization"
+excerpt: >
+  A nonlinear optimization framework for maximizing torque in compact motors under thermal and geometric constraints.<br/>
+  <img src="/images/motor.jpeg">
 collection: portfolio
 ---
 
+# Motor Design Optimization
 
-This project formulates electric motor design as a **nonlinear constrained optimization problem** aimed at maximizing torque density while respecting electromagnetic and thermal constraints.  
-The work enables the design of **compact, high-performance actuators** used in robotic manipulators, exoskeletons, and mobile platforms.
+## Introduction  
+High-torque, compact electric motors are essential for **robot manipulators, exoskeletons, and mobile platforms**. Increasing torque often introduces thermal or geometric constraints.  
+**Objective:** formulate and solve a nonlinear optimization problem that maximizes torque at thermal current while ensuring manufacturability and safety.
 
-## Objective
-Optimize key motor geometric and electromagnetic parameters—including stator diameter, stack length, magnet thickness, air-gap distance, and coil turns—to maximize torque at the allowable thermal current.
+## Methods  
+Based on the mathematical model from :contentReference[oaicite:7]{index=7}:
+- Decision variables: stator diameter, magnet thickness, stack length, air gap, turns.  
+- Objective: maximize **Kt × Imax** (torque constant × thermal current).  
+- Constraints: magnetic flux equations, thermal limits, geometric bounds.  
+- Tools: numerical solvers and constraint validation over feasible space.
 
-## Method
-We developed a full electromagnetic–thermal analytical model with:
-- torque constant formulation  
-- flux density & coil geometry constraints  
-- thermal current inequality limits  
-- physical manufacturability bounds  
+## Results  
+- Identified feasible configurations that satisfy all equality and inequality constraints.  
+- Observed sensitivity in flux-density and resistive models when parameters approach lower bounds.  
+- Proposed safe operational ranges to maintain manufacturability and thermal reliability.
 
-We analyzed:
-- constraint geometry  
-- feasible region smoothness  
-- sensitivity of torque to geometric parameters  
+## Discussion  
+The work demonstrates how optimization can systematically improve actuator performance. Future improvements include robustness analysis, uncertainty modeling, and integrating real FEM simulations.
 
-The final nonlinear program was solved using constrained optimization techniques (SQP, interior-point).
-
-## Results
-The solver successfully discovered feasible motor configurations that satisfy all constraints while improving torque output.  
-Sensitivity results revealed key geometric factors influencing torque constant, resistance, and thermal limits.
-
-<!-- ## My Role
-I contributed to:
-- full mathematical modeling  
-- constraint formulation  
-- feasibility region analysis  
-- interpreting optimization results   -->
+## My Contribution  
+I implemented constraints, validated feasible points, visualized solution behavior, and contributed to modeling/analysis sections.  

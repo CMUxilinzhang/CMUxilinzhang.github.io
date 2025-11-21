@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm **Xilin Zhang**, a Master's student in the **Robotics Institute** at **Carnegie Mellon University (CMU)**. I am fortunate to be advised by **Jeffrey Ichnowski**, and I currently work within the CMU RI environment on research topics about robotic manipulation.
+Hi! I'm **Xilin Zhang**, a Master's student in the **Robotics Institute** at **Carnegie Mellon University (CMU)**. I am fortunate to be advised by **Jeffrey Ichnowski**, and I currently work within the CMU RI environment on research topics about **robotic manipulation**.
 
 Before coming to CMU, I completed my undergraduate studies at **Tianjin University**, where I developed strong interests in robotics, machine learning, and intelligent systems.
 

@@ -1,32 +1,29 @@
 ---
-title: "Motion Retargeting & 3D Human Reconstruction"
-excerpt: "A complete pipeline for 3D pose estimation and cross-skeleton motion retargeting.<img src='/images/motionretargeting.png'>"
+title: "Pose Estimation and Motion Retargeting for Virtual Reconstruction"
+excerpt: >
+  A hybrid system combining TDPT pose estimation and SAN-based motion retargeting for realistic virtual reconstruction.<br/>
+  <img src="/images/motionretargeting.png">
 collection: portfolio
 ---
 
 
-This project builds a full pipeline that converts human video into animatable 3D motion sequences using pose estimation and motion retargeting. The social value lies in enabling **low-cost motion capture** for animation, VR/AR performance, teleoperation, and robot imitation learning—without requiring expensive hardware motion-capture systems.
+## Introduction  
+Accurate motion reconstruction is essential for **robot imitation learning, animation, and human–robot interaction**. Existing pipelines struggle with occlusion, motion jitter, and cross-skeleton retargeting errors.  
+**Objective:** build an end-to-end system that converts raw RGB videos into clean, retargeted 3D motions suitable for robotics and virtual avatars.
 
-## Objective
-Develop a robust and accurate pipeline that extracts 3D human pose from video and retargets the motion across different skeleton structures while preserving physical realism.
+## Methods  
+Following the pipeline in :contentReference[oaicite:5]{index=5}:
+- **ThreeDPoseTracker (TDPT)** for robust 3D joint rotations (BVH output).  
+- **Skeleton-Aware Network (SAN)** trained on Mixamo for motion retargeting across different skeletons.  
+- **Blender-based quantitative evaluation** for penetration, smoothness, and positional error.
 
-## Method
-We evaluated multiple pose-estimation baselines such as **OpenPose** and **MotionNet**, then adopted **ThreeDPoseTracker**, which significantly reduces temporal inconsistency and depth prediction errors.  
-We reproduced the **Skeleton-Aware Network (SAN)** for motion retargeting, enabling cross-skeleton motion transfer.
+## Results  
+- TDPT achieves **0.0468 temporal inconsistency** and **5.71% limb-length variation**, outperforming OpenPose+MotioNet.  
+- SAN achieves **147 FPS** and low positional error (0.87% intra-structure, 2.54% cross-structure).  
+- Our pipeline significantly reduces mesh penetration compared to AutoRigPro (50.24% → 28.85%).
 
-Quantitative evaluation metrics included:
-- limb-length variation  
-- temporal consistency  
-- global smoothness  
-- BVH mesh penetration  
+## Discussion  
+By combining reliable pose estimation with structure-aware retargeting, the system offers more realistic and physically consistent motion. Remaining challenges include handling extreme poses, domain shifts, and skeleton mismatch.
 
-## Results
-3DPoseTracker provided the most stable and clean 3D pose sequences. SAN produced smoother, physically plausible motion reconstructions with lower collision and penetration rates across multiple skeleton topologies.  
-The pipeline demonstrates strong potential for generating training data for reinforcement learning and virtual avatar control.
-
-<!-- ## My Role
-I contributed to:
-- pipeline integration and evaluation  
-- SAN implementation  
-- metric design and evaluation  
-- visualization using Blender   -->
+## My Contribution  
+I implemented the retargeting pipeline, established evaluation metrics, generated Blender visualizations, and co-authored the full analysis.  
