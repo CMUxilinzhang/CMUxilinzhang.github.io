@@ -23,14 +23,14 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "xilin_profile.jpg"
+  name             : "Xilin Zhang"
   pronouns         : # example: "she/her"  
   bio              : "Master student at CMU"
   location         : "Pittsburgh, PA"
   employer         : "Carnegie Mellon University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "xilinzha@andrew.cmu.edu" 
 
   # Academic websites
   academia         : # URL
