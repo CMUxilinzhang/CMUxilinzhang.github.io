@@ -24,7 +24,8 @@ main:
     url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    #url: /cv/
+    url: /files/xilinzhang_cv.pdf
     
   # - title: "CV"
   #   url: /cv-json/
