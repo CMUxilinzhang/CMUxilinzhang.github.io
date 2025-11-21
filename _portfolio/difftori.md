@@ -4,7 +4,6 @@ excerpt: "Extensions to differentiable trajectory optimization for robot learnin
 collection: portfolio
 ---
 
-# DiffTORI with Adaptive Horizon & Hybrid Dynamics
 
 This project extends DiffTORI, a differentiable trajectory optimization method for reinforcement learning, by incorporating adaptive horizons, hybrid residual dynamics, and variational latent regularization.  
 The social value lies in improving **stability, efficiency, and long-horizon performance** in real-world robot learning.
@@ -37,9 +36,9 @@ A VAE-style encoder with KL annealing encourages smoother latent transitions and
 - Residual MLP dynamics provided smoother trajectories and better policy stability.  
 - Variational latent modeling exposed a trade-off between smoothness and precision.  
 
-## My Role
+<!-- ## My Role
 I implemented:
 - adaptive horizon mechanisms  
 - residual MLP architectures  
 - KL-annealed latent regularization  
-- experiments, tuning, and final report analysis  
+- experiments, tuning, and final report analysis   -->

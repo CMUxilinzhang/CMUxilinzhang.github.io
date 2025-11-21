@@ -4,7 +4,6 @@ excerpt: "Nonlinear constrained optimization of torque under thermal and electro
 collection: portfolio
 ---
 
-# Electric Motor Design Optimization
 
 This project formulates electric motor design as a **nonlinear constrained optimization problem** aimed at maximizing torque density while respecting electromagnetic and thermal constraints.  
 The work enables the design of **compact, high-performance actuators** used in robotic manipulators, exoskeletons, and mobile platforms.
@@ -30,9 +29,9 @@ The final nonlinear program was solved using constrained optimization techniques
 The solver successfully discovered feasible motor configurations that satisfy all constraints while improving torque output.  
 Sensitivity results revealed key geometric factors influencing torque constant, resistance, and thermal limits.
 
-## My Role
+<!-- ## My Role
 I contributed to:
 - full mathematical modeling  
 - constraint formulation  
 - feasibility region analysis  
-- interpreting optimization results  
+- interpreting optimization results   -->
