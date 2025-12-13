@@ -23,9 +23,10 @@ Based on the implementation (:contentReference[oaicite:3]{index=3}), we introduc
 - Residual MLPs improved long-horizon planning smoothness.  
 - Variational regularization reduced latent collapse but degraded task reward due to precision loss.  
 - Fixed-horizon DiffTORI still outperformed adaptive methods in sparse-reward tasks.
+<img src="{{ site.baseurl }}/images/result_16831.png" alt="Proprio-Phys teaser" width="800">
 
 ## Discussion  
 Findings show a trade-off between model expressiveness and stability. Sparse reward settings remain challenging for horizon adaptation, while dense-reward environments benefit significantly. This suggests future work toward warm-starting and smoothing horizon transitions.
 
 ## My Contribution  
-I implemented adaptive-horizon rules, performed experiments on Meta-World and DiffTORI benchmarks, analyzed failure modes, and contributed to the full report structure.  
+I implemented **adaptive-horizon rules**, performed experiments on Meta-World and DiffTORI benchmarks, analyzed failure modes, and contributed to the full report structure.  
