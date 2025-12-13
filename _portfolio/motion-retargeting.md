@@ -6,7 +6,7 @@ excerpt: >
 collection: portfolio
 ---
 
-
+🔗 **[Final Report (PDF)]({{ site.baseurl }}/files/24782_final_report.pdf)**
 ## Introduction  
 Accurate motion reconstruction is essential for **robot imitation learning, animation, and human–robot interaction**. Existing pipelines struggle with occlusion, motion jitter, and cross-skeleton retargeting errors.  
 **Objective:** build an end-to-end system that converts raw RGB videos into clean, retargeted 3D motions suitable for robotics and virtual avatars.

@@ -5,7 +5,7 @@ excerpt: >
   <img src="/images/motor.jpeg">
 collection: portfolio
 ---
-
+🔗 **[Final Report (PDF)]({{ site.baseurl }}/files/motor_optimization.pdf)**
 
 ## Introduction  
 High-torque, compact electric motors are essential for **robot manipulators, exoskeletons, and mobile platforms**. Increasing torque often introduces thermal or geometric constraints.  

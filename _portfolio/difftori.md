@@ -6,7 +6,7 @@ excerpt: >
 collection: portfolio
 ---
 
-
+🔗 **[Final Report (PDF)]({{ site.baseurl }}/files/16831_final_report.pdf)**
 ## Introduction  
 DiffTORI combines differentiable trajectory optimization with model-based RL, but struggles with unstable gradients, fixed horizons, and shallow latent models. Improving these limitations has direct impact on **robust robot learning**, especially in long-horizon or contact-rich tasks.  
 **Objective:** enhance DiffTORI’s stability, sample efficiency, and convergence through architectural and algorithmic improvements.
