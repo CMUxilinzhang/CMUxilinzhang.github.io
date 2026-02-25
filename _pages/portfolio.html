@@ -7,8 +7,15 @@ author_profile: true
 
 {% include base_path %}
 
+{% comment %}
+  Only show portfolio items where show_in_portfolio is not false.
+  To hide a project, add "show_in_portfolio: false" to its front matter in _portfolio/*.md
+{% endcomment %}
+{% assign portfolio_filtered = site.portfolio | where_exp: "item", "item.show_in_portfolio != false" %}
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="archive archive--portfolio">
+  {% for post in portfolio_filtered %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
 

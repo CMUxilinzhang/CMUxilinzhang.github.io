@@ -14,4 +14,20 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+{% if page.url contains '/portfolio/' %}
+<style>
+  .archive--portfolio .grid__item {
+    margin-bottom: 2.5em;
+  }
+  .archive--portfolio .archive__item-teaser {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  .archive--portfolio .archive__item:hover .archive__item-teaser {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  }
+</style>
+{% endif %}
+
 <!-- end custom head snippets -->

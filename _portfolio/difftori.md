@@ -1,9 +1,11 @@
 ---
 title: "DiffTORI with Adaptive Horizon and Hybrid Dynamics"
 excerpt: >
-  Improving DiffTORI with adaptive planning horizons, residual MLP models, and variational latent regularization.<br/>
-#   <img src="/images/difftori.png">
+  Improving DiffTORI with adaptive planning horizons, residual MLP models, and variational latent regularization.
+header:
+  teaser: /images/result_16831.png
 collection: portfolio
+# show_in_portfolio: false  # set to false to hide from portfolio page
 ---
 
 🔗 **[Final Report (PDF)]({{ site.baseurl }}/files/16831_final_report.pdf)**

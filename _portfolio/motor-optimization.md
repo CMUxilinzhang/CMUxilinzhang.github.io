@@ -1,9 +1,11 @@
 ---
 title: "Motor Design Optimization"
 excerpt: >
-  A nonlinear optimization framework for maximizing torque in compact motors under thermal and geometric constraints.<br/>
-  <img src="/images/motor.jpeg">
+  A nonlinear optimization framework for maximizing torque in compact motors under thermal and geometric constraints.
+header:
+  teaser: /images/motor.jpeg
 collection: portfolio
+show_in_portfolio: false  # set to false to hide from portfolio page
 ---
 🔗 **[Final Report (PDF)]({{ site.baseurl }}/files/motor_optimization.pdf)**
 

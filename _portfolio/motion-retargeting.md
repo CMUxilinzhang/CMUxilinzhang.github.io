@@ -1,9 +1,11 @@
 ---
 title: "Pose Estimation and Motion Retargeting for Virtual Reconstruction"
 excerpt: >
-  A hybrid system combining TDPT pose estimation and SAN-based motion retargeting for realistic virtual reconstruction.<br/>
-  <img src="/images/motionretargeting.png">
+  A hybrid system combining TDPT pose estimation and SAN-based motion retargeting for realistic virtual reconstruction.
+header:
+  teaser: /images/motionretargeting.png
 collection: portfolio
+# show_in_portfolio: false  # set to false to hide from portfolio page
 ---
 
 🔗 **[Final Report (PDF)]({{ site.baseurl }}/files/24782_final_report.pdf)**
