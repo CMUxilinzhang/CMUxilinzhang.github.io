@@ -9,7 +9,7 @@ redirect_from:
 
 Hi! I'm **Xilin Zhang**, a Master's student in the **Mechanical Engineering** at **Carnegie Mellon University (CMU)**. I am fortunate to be advised by **[Jeffrey Ichnowski](https://ichnow.ski/)** in **[Robotics Institute](https://www.ri.cmu.edu/)**, and I currently work within the CMU RI environment on research topics about **robotic manipulation**.
 
-Before coming to CMU, I completed my undergraduate studies at **Tianjin University**, where I developed strong interests in robotics hardware, and intelligent systems.
+Before coming to CMU, I completed my undergraduate studies at **[Tianjin University](https://en.tju.edu.cn/)**, where I developed strong interests in robotics hardware and intelligent systems.
 
 ---
 
@@ -73,16 +73,27 @@ Before coming to CMU, I completed my undergraduate studies at **Tianjin Universi
 
 <div class="pub-entry">
   <div class="pub-teaser">
-    <!-- 选项1: 静态图片 -->
-    <!-- <img src="/images/prophand-teaser.png" alt="PropHand teaser"> -->
-    
-    <!-- 选项2: GIF 动图 -->
-    <!-- <img src="/images/prophand-teaser.gif" alt="PropHand teaser"> -->
-    
-    <!-- 选项3: MP4 视频（自动播放、循环、静音） -->
-    <video autoplay loop muted playsinline style="width:100%; border-radius:4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
-      <source src="/images/prophand-teaser.mp4" type="video/mp4">
+    <video id="prophand-video" autoplay muted playsinline style="width:100%; border-radius:4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+      <source src="/images/nut.mp4" type="video/mp4">
     </video>
+    <script>
+      (function() {
+        var videos = [
+          '/images/nut.mp4',
+          '/images/grasping.mp4',
+          '/images/clicking.mp4',
+          '/images/disturbing.mp4'
+        ];
+        var currentIndex = 0;
+        var video = document.getElementById('prophand-video');
+        
+        video.addEventListener('ended', function() {
+          currentIndex = (currentIndex + 1) % videos.length;
+          video.src = videos[currentIndex];
+          video.play();
+        });
+      })();
+    </script>
   </div>
   <div class="pub-content">
     <div class="pub-title">PropHand: A Force-Aware Open-Source Dexterous Robot Hand</div>
@@ -125,12 +136,14 @@ Before coming to CMU, I completed my undergraduate studies at **Tianjin Universi
 </style>
 
 <div class="affiliations">
-  <a href="https://www.cmu.edu/" target="_blank">
-    <img src="/images/cmu-logo.svg" alt="Carnegie Mellon University">
-  </a>
   <a href="https://www.ri.cmu.edu/" target="_blank">
     <img src="/images/ri-logo.png" alt="Robotics Institute">
   </a>
+
+  <a href="https://www.cmu.edu/" target="_blank">
+    <img src="/images/cmu-logo.svg" alt="Carnegie Mellon University">
+  </a>
+
   <a href="http://www.tju.edu.cn/" target="_blank">
     <img src="/images/tju-logo.png" alt="Tianjin University">
   </a>
