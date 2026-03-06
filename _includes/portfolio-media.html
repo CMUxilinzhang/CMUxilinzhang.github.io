@@ -1,0 +1,35 @@
+{% comment %}
+  Insert an image or video with optional caption.
+  Usage:
+    {% include portfolio-media.html path="/images/photo.png" caption="Your caption" %}
+    {% include portfolio-media.html path="/images/demo.mp4" type="video" caption="Demo video" %}
+  Parameters:
+    path    - required, path under site (e.g. /images/xxx.png or /files/xxx.mp4)
+    caption - optional, figure caption text
+    alt     - optional, alt text for images (default: caption or "Media")
+    type    - "image" (default) or "video"
+    width   - optional, max width in px (e.g. 800)
+{% endcomment %}
+{% include base_path %}
+{% assign media_path = include.path %}
+{% if media_path contains "://" %}
+{% else %}
+  {% assign first_char = media_path | slice: 0 %}
+  {% unless first_char == "/" %}
+    {% assign media_path = "/images/" | append: media_path %}
+  {% endunless %}
+  {% assign media_path = media_path | prepend: base_path %}
+{% endif %}
+<figure class="portfolio-media">
+  {% if include.type == "video" %}
+    <video controls width="{{ include.width | default: '100%' }}" style="max-width: {{ include.width | default: '800' }}px;">
+      <source src="{{ media_path }}" type="video/{% if include.path contains '.webm' %}webm{% else %}mp4{% endif %}">
+      Your browser does not support the video tag.
+    </video>
+  {% else %}
+    <img src="{{ media_path }}" alt="{{ include.alt | default: include.caption | default: 'Media' }}" {% if include.width %}width="{{ include.width }}" style="max-width: {{ include.width }}px; width: 100%;"{% endif %}>
+  {% endif %}
+  {% if include.caption %}
+    <figcaption>{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>

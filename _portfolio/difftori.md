@@ -14,7 +14,7 @@ DiffTORI combines differentiable trajectory optimization with model-based RL, bu
 **Objective:** enhance DiffTORI’s stability, sample efficiency, and convergence through architectural and algorithmic improvements.
 
 ## Methods  
-Based on the implementation (:contentReference[oaicite:3]{index=3}), we introduced:
+Based on the implementation of DiffTORI, we introduced:
 - **Gradient- and loss-driven adaptive horizons** that expand or shrink the planning window.  
 - **Cost-to-go horizon selection** using Theseus-based optimization.  
 - **Residual MLP blocks** to improve latent dynamics expressiveness.  

@@ -11,6 +11,86 @@ Hi! I'm **Xilin Zhang**, a Master's student in the **Mechanical Engineering** at
 
 Before coming to CMU, I completed my undergraduate studies at **Tianjin University**, where I developed strong interests in robotics hardware, and intelligent systems.
 
+---
+
+## Publications
+<small>(\* indicates equal contribution)</small>
+
+<style>
+.pub-entry {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 28px;
+  align-items: flex-start;
+}
+.pub-teaser {
+  flex-shrink: 0;
+  width: 200px;
+}
+.pub-teaser img {
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.pub-content {
+  flex: 1;
+}
+.pub-title {
+  font-weight: bold;
+  font-size: 1.05em;
+  margin-bottom: 4px;
+}
+.pub-authors {
+  margin-bottom: 4px;
+  color: #333;
+}
+.pub-authors a {
+  color: #2a7ae2;
+  text-decoration: none;
+}
+.pub-authors a:hover {
+  text-decoration: underline;
+}
+.pub-venue {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 4px;
+}
+.pub-award {
+  color: #d9534f;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.pub-links a {
+  color: #2a7ae2;
+  text-decoration: none;
+  margin-right: 8px;
+}
+.pub-links a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<div class="pub-entry">
+  <div class="pub-teaser">
+    <img src="/images/prophand-teaser.png" alt="PropHand teaser">
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">PropHand: A Force-Aware Open-Source Dexterous Robot Hand</div>
+    <div class="pub-authors">
+      <strong>Xilin Zhang</strong>, [Co-author TBD], Jeffrey Ichnowski
+    </div>
+    <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</div>
+    <div class="pub-venue" style="font-style: normal; color: #888;">Under Review</div>
+    <div class="pub-links">
+      [Website]
+      [Paper]
+      [Video]
+    </div>
+  </div>
+</div>
+
+---
 
 <!-- A data-driven personal website
 ======
