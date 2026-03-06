@@ -11,41 +11,6 @@ Hi! I'm **Xilin Zhang**, a Master's student in the **Mechanical Engineering** at
 
 Before coming to CMU, I completed my undergraduate studies at **Tianjin University**, where I developed strong interests in robotics hardware, and intelligent systems.
 
-<style>
-.affiliations {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  margin: 30px 0;
-  flex-wrap: wrap;
-}
-.affiliations a {
-  display: inline-block;
-  transition: opacity 0.2s ease;
-}
-.affiliations a:hover {
-  opacity: 0.7;
-}
-.affiliations img {
-  height: 60px;
-  width: auto;
-  object-fit: contain;
-}
-</style>
-
-<div class="affiliations">
-  <a href="https://www.cmu.edu/" target="_blank">
-    <img src="/images/cmu-logo.svg" alt="Carnegie Mellon University">
-  </a>
-  <a href="https://www.ri.cmu.edu/" target="_blank">
-    <img src="/images/ri-logo.png" alt="Robotics Institute">
-  </a>
-  <a href="http://www.tju.edu.cn/" target="_blank">
-    <img src="/images/tju-logo.png" alt="Tianjin University">
-  </a>
-</div>
-
 ---
 
 ## Publications
@@ -126,6 +91,41 @@ Before coming to CMU, I completed my undergraduate studies at **Tianjin Universi
 </div>
 
 ---
+
+<style>
+.affiliations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+.affiliations a {
+  display: inline-block;
+  transition: opacity 0.2s ease;
+}
+.affiliations a:hover {
+  opacity: 0.7;
+}
+.affiliations img {
+  height: 90px;
+  width: auto;
+  object-fit: contain;
+}
+</style>
+
+<div class="affiliations">
+  <a href="https://www.cmu.edu/" target="_blank">
+    <img src="/images/cmu-logo.svg" alt="Carnegie Mellon University">
+  </a>
+  <a href="https://www.ri.cmu.edu/" target="_blank">
+    <img src="/images/ri-logo.png" alt="Robotics Institute">
+  </a>
+  <a href="http://www.tju.edu.cn/" target="_blank">
+    <img src="/images/tju-logo.png" alt="Tianjin University">
+  </a>
+</div>
 
 <!-- A data-driven personal website
 ======
