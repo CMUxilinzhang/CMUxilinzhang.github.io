@@ -73,7 +73,16 @@ Before coming to CMU, I completed my undergraduate studies at **Tianjin Universi
 
 <div class="pub-entry">
   <div class="pub-teaser">
-    <img src="/images/prophand-teaser.png" alt="PropHand teaser">
+    <!-- 选项1: 静态图片 -->
+    <!-- <img src="/images/prophand-teaser.png" alt="PropHand teaser"> -->
+    
+    <!-- 选项2: GIF 动图 -->
+    <!-- <img src="/images/prophand-teaser.gif" alt="PropHand teaser"> -->
+    
+    <!-- 选项3: MP4 视频（自动播放、循环、静音） -->
+    <video autoplay loop muted playsinline style="width:100%; border-radius:4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+      <source src="/images/prophand-teaser.mp4" type="video/mp4">
+    </video>
   </div>
   <div class="pub-content">
     <div class="pub-title">PropHand: A Force-Aware Open-Source Dexterous Robot Hand</div>
@@ -95,7 +104,7 @@ Before coming to CMU, I completed my undergraduate studies at **Tianjin Universi
 <style>
 .affiliations {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 50px;
   margin: 40px 0;
@@ -109,7 +118,7 @@ Before coming to CMU, I completed my undergraduate studies at **Tianjin Universi
   opacity: 0.7;
 }
 .affiliations img {
-  height: 90px;
+  height: 120px;
   width: auto;
   object-fit: contain;
 }
