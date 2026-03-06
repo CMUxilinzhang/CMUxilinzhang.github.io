@@ -78,9 +78,9 @@ Before coming to CMU, I completed my undergraduate studies at **Tianjin Universi
   <div class="pub-content">
     <div class="pub-title">PropHand: A Force-Aware Open-Source Dexterous Robot Hand</div>
     <div class="pub-authors">
-      <strong>Xilin Zhang</strong>, [Co-author TBD], Jeffrey Ichnowski
+      <strong>Qiushi Zhang*, Xilin Zhang*</strong>, Jeffrey Ichnowski
     </div>
-    <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</div>
+    <!-- <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</div> -->
     <div class="pub-venue" style="font-style: normal; color: #888;">Under Review</div>
     <div class="pub-links">
       [Website]
