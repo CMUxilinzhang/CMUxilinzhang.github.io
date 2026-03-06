@@ -73,27 +73,9 @@ Before coming to CMU, I completed my undergraduate studies at **[Tianjin Univers
 
 <div class="pub-entry">
   <div class="pub-teaser">
-    <video id="prophand-video" autoplay muted playsinline style="width:100%; border-radius:4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
-      <source src="/images/nut.mp4" type="video/mp4">
+    <video autoplay loop muted playsinline style="width:100%; border-radius:4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+      <source src="/images/prophand-demo.mp4" type="video/mp4">
     </video>
-    <script>
-      (function() {
-        var videos = [
-          '/images/nut.mp4',
-          '/images/grasping.mp4',
-          '/images/clicking.mp4',
-          '/images/disturbing.mp4'
-        ];
-        var currentIndex = 0;
-        var video = document.getElementById('prophand-video');
-        
-        video.addEventListener('ended', function() {
-          currentIndex = (currentIndex + 1) % videos.length;
-          video.src = videos[currentIndex];
-          video.play();
-        });
-      })();
-    </script>
   </div>
   <div class="pub-content">
     <div class="pub-title">PropHand: A Force-Aware Open-Source Dexterous Robot Hand</div>
