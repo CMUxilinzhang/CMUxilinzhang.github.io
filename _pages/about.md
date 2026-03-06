@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm **Xilin Zhang**, a Master's student in the **Mechanical Engineering** at **Carnegie Mellon University (CMU)**. I am fortunate to be advised by **Jeffrey Ichnowski** in **Robotics Institute**, and I currently work within the CMU RI environment on research topics about **robotic manipulation**.
+Hi! I'm **Xilin Zhang**, a Master's student in the **Mechanical Engineering** at **Carnegie Mellon University (CMU)**. I am fortunate to be advised by **[Jeffrey Ichnowski](https://ichnow.ski/)** in **Robotics Institute**, and I currently work within the CMU RI environment on research topics about **robotic manipulation**.
 
 Before coming to CMU, I completed my undergraduate studies at **Tianjin University**, where I developed strong interests in robotics hardware, and intelligent systems.
 
@@ -78,7 +78,7 @@ Before coming to CMU, I completed my undergraduate studies at **Tianjin Universi
   <div class="pub-content">
     <div class="pub-title">PropHand: A Force-Aware Open-Source Dexterous Robot Hand</div>
     <div class="pub-authors">
-      <strong>Qiushi Zhang*, Xilin Zhang*</strong>, Jeffrey Ichnowski
+      Qiushi Zhang*, <strong>Xilin Zhang*</strong>, Jeffrey Ichnowski
     </div>
     <!-- <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</div> -->
     <div class="pub-venue" style="font-style: normal; color: #888;">Under Review</div>
