@@ -7,9 +7,44 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm **Xilin Zhang**, a Master's student in the **Mechanical Engineering** at **Carnegie Mellon University (CMU)**. I am fortunate to be advised by **[Jeffrey Ichnowski](https://ichnow.ski/)** in **Robotics Institute**, and I currently work within the CMU RI environment on research topics about **robotic manipulation**.
+Hi! I'm **Xilin Zhang**, a Master's student in the **Mechanical Engineering** at **Carnegie Mellon University (CMU)**. I am fortunate to be advised by **[Jeffrey Ichnowski](https://ichnow.ski/)** in **[Robotics Institute](https://www.ri.cmu.edu/)**, and I currently work within the CMU RI environment on research topics about **robotic manipulation**.
 
 Before coming to CMU, I completed my undergraduate studies at **Tianjin University**, where I developed strong interests in robotics hardware, and intelligent systems.
+
+<style>
+.affiliations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+.affiliations a {
+  display: inline-block;
+  transition: opacity 0.2s ease;
+}
+.affiliations a:hover {
+  opacity: 0.7;
+}
+.affiliations img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+}
+</style>
+
+<div class="affiliations">
+  <a href="https://www.cmu.edu/" target="_blank">
+    <img src="/images/cmu-logo.svg" alt="Carnegie Mellon University">
+  </a>
+  <a href="https://www.ri.cmu.edu/" target="_blank">
+    <img src="/images/ri-logo.png" alt="Robotics Institute">
+  </a>
+  <a href="http://www.tju.edu.cn/" target="_blank">
+    <img src="/images/tju-logo.png" alt="Tianjin University">
+  </a>
+</div>
 
 ---
 
