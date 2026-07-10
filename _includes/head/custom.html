@@ -81,11 +81,18 @@
   }
 
   /* ---------- base typography ---------- */
-  html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; }
+  /* override html bg too (theme sets it) so short pages don't reveal a gray band
+     between content and the sticky footer */
+  html {
+    -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    background: var(--paper) !important;
+    transition: background-color .3s ease;
+  }
   body {
     font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
     color: var(--ink);
-    background: var(--paper);
+    background: var(--paper) !important;
     font-size: 17px;
     line-height: 1.72;
     letter-spacing: 0.1px;
