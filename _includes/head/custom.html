@@ -113,21 +113,31 @@
   }
   .page__title { font-size: 2.25rem; font-weight: 600; margin-bottom: .35rem; }
 
-  /* ---------- section labels (## News / ## Publications) ---------- */
+  /* ---------- section headings (## News / ## Publications) ---------- */
   .page__content h2 {
-    font-family: 'Inter', sans-serif !important;
-    text-transform: uppercase;
-    letter-spacing: 0.18em;
-    font-size: 0.78rem;
+    font-family: 'Newsreader', Georgia, serif !important;
+    text-transform: none;
+    letter-spacing: -0.01em;
+    font-size: 1.7rem;
     font-weight: 600;
-    color: var(--muted);
-    margin: 2.8rem 0 1.15rem;
-    padding-bottom: 0.6rem;
-    border-bottom: 1px solid var(--line);
+    color: var(--ink);
+    margin: 2.9rem 0 1.25rem;
+    padding-bottom: 0;
+    border-bottom: 0;
+    position: relative;
+  }
+  /* short accent underline under each section title (intentional, not a full-width rule) */
+  .page__content h2::after {
+    content: "";
+    position: absolute; left: 0; bottom: -8px;
+    width: 42px; height: 3px;
+    background: var(--accent);
+    border-radius: 2px;
   }
   .page__content h3 { font-size: 1.3rem; margin-top: 1.7rem; }
 
-  .page__content hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; opacity: 1; }
+  /* remove the stray horizontal rules between sections (from markdown ---) */
+  .page__content hr { display: none; }
 
   /* ---------- links (restrained: color + underline fade, no motion) ---------- */
   a, .page__content a { color: var(--link); text-decoration: none; transition: color .2s ease, border-color .2s ease, background-color .2s ease; }

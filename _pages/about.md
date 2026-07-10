@@ -16,13 +16,14 @@ Before coming to CMU, I completed my undergraduate studies at **[Tianjin Univers
 ## News
 
 <style>
+/* colors reference the site variables in head/custom.html → light + dark aware */
 .news-list {
   max-height: 240px;
   overflow-y: auto;
   padding: 12px 16px;
-  border: 1px solid #e6e6e6;
-  border-radius: 6px;
-  background: #fafafa;
+  border: 1px solid var(--line, #e7e2d8);
+  border-radius: var(--radius, 12px);
+  background: var(--surface, #fff);
 }
 .news-item {
   display: flex;
@@ -34,13 +35,13 @@ Before coming to CMU, I completed my undergraduate studies at **[Tianjin Univers
 .news-date {
   flex: 0 0 92px;
   white-space: nowrap;
-  color: #d9534f;
+  color: var(--accent, #8a2432);
   font-weight: bold;
   font-variant-numeric: tabular-nums;
 }
-.news-text { flex: 1; color: #333; }
-.news-list a { color: #2a7ae2; text-decoration: none; }
-.news-list a:hover { text-decoration: underline; }
+.news-text { flex: 1; color: var(--ink-soft, #514d45); }
+.news-list a { color: var(--link, #8a2432); text-decoration: none; border-bottom: 1px solid var(--accent-tint, rgba(138,36,50,0.25)); transition: color .2s ease, border-color .2s ease; }
+.news-list a:hover { color: var(--accent, #8a2432); border-bottom-color: var(--accent, #8a2432); }
 </style>
 
 <div class="news-list" markdown="0">
@@ -77,8 +78,8 @@ Before coming to CMU, I completed my undergraduate studies at **[Tianjin Univers
 }
 .pub-teaser img {
   width: 100%;
-  border-radius: 4px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  border: 1px solid var(--line, #e7e2d8);
 }
 .pub-content {
   flex: 1;
@@ -90,32 +91,32 @@ Before coming to CMU, I completed my undergraduate studies at **[Tianjin Univers
 }
 .pub-authors {
   margin-bottom: 4px;
-  color: #333;
+  color: var(--ink-soft, #514d45);
 }
 .pub-authors a {
-  color: #2a7ae2;
+  color: var(--link, #8a2432);
   text-decoration: none;
 }
 .pub-authors a:hover {
-  text-decoration: underline;
+  color: var(--accent, #8a2432);
 }
 .pub-venue {
   font-style: italic;
-  color: #555;
+  color: var(--muted, #8c867a);
   margin-bottom: 4px;
 }
 .pub-award {
-  color: #d9534f;
+  color: var(--accent, #8a2432);
   font-weight: bold;
   margin-bottom: 4px;
 }
 .pub-links a {
-  color: #2a7ae2;
+  color: var(--accent, #8a2432);
   text-decoration: none;
   margin-right: 8px;
 }
 .pub-links a:hover {
-  text-decoration: underline;
+  opacity: 0.7;
 }
 </style>
 
