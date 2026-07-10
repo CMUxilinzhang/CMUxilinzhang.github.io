@@ -163,6 +163,10 @@ Before coming to CMU, I completed my undergraduate studies at **[Tianjin Univers
   width: auto;
   object-fit: contain;
 }
+/* wide wordmark logos sit smaller so they balance the circular seals */
+.affiliations img.wordmark {
+  height: 52px;
+}
 </style>
 
 <div class="affiliations">
@@ -176,6 +180,10 @@ Before coming to CMU, I completed my undergraduate studies at **[Tianjin Univers
 
   <a href="http://www.tju.edu.cn/" target="_blank">
     <img src="/images/tju-logo.png" alt="Tianjin University">
+  </a>
+
+  <a href="WUJI_LINK_HERE" target="_blank">
+    <img class="wordmark" src="/images/wuji-logo.png" alt="WUJI">
   </a>
 </div>
 
