@@ -280,6 +280,11 @@
 
   /* ---------- portfolio / archive cards (quiet lift via shadow only) ---------- */
   .archive__item-title { font-family: 'Newsreader', serif !important; }
+  /* unify archive link colors with the site accent (theme defaults to blue) */
+  .archive__item-title a { color: var(--ink); border: 0; transition: color .2s ease; }
+  .archive__item-title a:hover { color: var(--accent); }
+  .archive__item-excerpt { color: var(--ink-soft); }
+  .archive__item-excerpt a, .archive .page__meta a { color: var(--accent); border: 0; }
   .archive__item-teaser { border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); }
   .archive__item-teaser img { transition: transform .4s ease; }
   .archive__item:hover .archive__item-teaser img { transform: scale(1.03); }
