@@ -13,6 +13,51 @@ Before coming to CMU, I completed my undergraduate studies at **[Tianjin Univers
 
 ---
 
+## News
+
+<style>
+.news-list {
+  max-height: 220px;
+  overflow-y: auto;
+  padding: 12px 16px;
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+  background: #fafafa;
+}
+.news-list dl { margin: 0; }
+.news-list dt {
+  float: left;
+  clear: left;
+  width: 88px;
+  color: #d9534f;
+  font-weight: bold;
+  font-variant-numeric: tabular-nums;
+}
+.news-list dd {
+  margin-left: 96px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.news-list a { color: #2a7ae2; text-decoration: none; }
+.news-list a:hover { text-decoration: underline; }
+</style>
+
+<div class="news-list" markdown="0">
+<dl>
+  <!-- Add new items at the top. Format: <dt>date</dt><dd>news</dd> -->
+  <dt>Jul 2026</dt>
+  <dd>The project page for <a href="https://cmuxilinzhang.github.io/prophand/" target="_blank"><em>PropHand</em></a>, our open-source force-aware dexterous hand, is now online!</dd>
+
+  <dt>2026</dt>
+  <dd>Our work <em>PropHand: A Force-Aware Open-Source Dexterous Robot Hand</em> targets IEEE/RSJ IROS 2026.</dd>
+
+  <dt>Aug 2025</dt>
+  <dd>Started my Master's in Mechanical Engineering at Carnegie Mellon University, advised by <a href="https://ichnow.ski/" target="_blank">Jeffrey Ichnowski</a> in the Robotics Institute.</dd>
+</dl>
+</div>
+
+---
+
 ## Publications
 <small>(\* indicates equal contribution)</small>
 
@@ -80,14 +125,13 @@ Before coming to CMU, I completed my undergraduate studies at **[Tianjin Univers
   <div class="pub-content">
     <div class="pub-title">PropHand: A Force-Aware Open-Source Dexterous Robot Hand</div>
     <div class="pub-authors">
-      Qiushi Zhang*, <strong>Xilin Zhang*</strong>, Jeffrey Ichnowski
+      Qiushi Zhang*, <strong>Xilin Zhang*</strong>, <a href="https://ichnow.ski/" target="_blank">Jeffrey Ichnowski</a>
     </div>
-    <!-- <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</div> -->
-    <div class="pub-venue" style="font-style: normal; color: #888;">Under Review</div>
+    <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</div>
     <div class="pub-links">
-      [Website]
-      [Paper]
-      [Video]
+      <a href="https://cmuxilinzhang.github.io/prophand/" target="_blank">[Website]</a>
+      <a href="{{ site.baseurl }}/files/prophand.pdf" target="_blank">[Paper]</a>
+      <a href="https://cmuxilinzhang.github.io/prophand/#tasks" target="_blank">[Video]</a>
     </div>
   </div>
 </div>
