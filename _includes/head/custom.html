@@ -270,14 +270,17 @@
   /* ---------- affiliation logos ---------- */
   .affiliations img { transition: opacity .25s ease; opacity: .95; }
   .affiliations a:hover img { opacity: 1; }
-  /* dark mode: seat the colored seals on a light plate so detail survives */
+  /* dark mode: seat the colored seals on a light plate so detail survives.
+     fixed plate height keeps the wide WUJI wordmark aligned with the seals */
   html[data-theme="dark"] .affiliations a {
     background: #f4f1ea;
-    padding: 12px 16px;
-    border-radius: 12px;
+    height: 132px;
+    padding: 0 18px;
+    border-radius: 14px;
     display: inline-flex;
     align-items: center;
-    transition: background-color .2s ease, transform .2s ease;
+    justify-content: center;
+    transition: background-color .2s ease;
   }
   html[data-theme="dark"] .affiliations a:hover { background: #fffdf8; }
 

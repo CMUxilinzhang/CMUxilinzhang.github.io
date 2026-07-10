@@ -147,7 +147,7 @@ Before coming to CMU, I completed my undergraduate studies at **[Tianjin Univers
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 50px;
+  gap: 38px;
   margin: 40px 0;
   flex-wrap: wrap;
 }
@@ -182,8 +182,8 @@ Before coming to CMU, I completed my undergraduate studies at **[Tianjin Univers
     <img src="/images/tju-logo.png" alt="Tianjin University">
   </a>
 
-  <a href="WUJI_LINK_HERE" target="_blank">
-    <img class="wordmark" src="/images/wuji-logo.png" alt="WUJI">
+  <a href="https://wuji.tech/" target="_blank">
+    <img class="wordmark" src="/images/wuji-logo.png" alt="WUJI Technology">
   </a>
 </div>
 
