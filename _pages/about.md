@@ -17,43 +17,45 @@ Before coming to CMU, I completed my undergraduate studies at **[Tianjin Univers
 
 <style>
 .news-list {
-  max-height: 220px;
+  max-height: 240px;
   overflow-y: auto;
   padding: 12px 16px;
   border: 1px solid #e6e6e6;
   border-radius: 6px;
   background: #fafafa;
 }
-.news-list dl { margin: 0; }
-.news-list dt {
-  float: left;
-  clear: left;
-  width: 88px;
+.news-item {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 10px;
+  align-items: flex-start;
+}
+.news-item:last-child { margin-bottom: 0; }
+.news-date {
+  flex: 0 0 84px;
   color: #d9534f;
   font-weight: bold;
   font-variant-numeric: tabular-nums;
 }
-.news-list dd {
-  margin-left: 96px;
-  margin-bottom: 10px;
-  color: #333;
-}
+.news-text { flex: 1; color: #333; }
 .news-list a { color: #2a7ae2; text-decoration: none; }
 .news-list a:hover { text-decoration: underline; }
 </style>
 
 <div class="news-list" markdown="0">
-<dl>
-  <!-- Add new items at the top. Format: <dt>date</dt><dd>news</dd> -->
-  <dt>Jul 2026</dt>
-  <dd>The project page for <a href="https://cmuxilinzhang.github.io/prophand/" target="_blank"><em>PropHand</em></a>, our open-source force-aware dexterous hand, is now online!</dd>
-
-  <dt>2026</dt>
-  <dd>Our work <em>PropHand: A Force-Aware Open-Source Dexterous Robot Hand</em> targets IEEE/RSJ IROS 2026.</dd>
-
-  <dt>Aug 2025</dt>
-  <dd>Started my Master's in Mechanical Engineering at Carnegie Mellon University, advised by <a href="https://ichnow.ski/" target="_blank">Jeffrey Ichnowski</a> in the Robotics Institute.</dd>
-</dl>
+  <!-- Add new items at the top. Format: <div class="news-item"><span class="news-date">DATE</span><span class="news-text">NEWS</span></div> -->
+  <div class="news-item">
+    <span class="news-date">Jul 2026</span>
+    <span class="news-text">The project page for <a href="https://cmuxilinzhang.github.io/prophand/" target="_blank"><em>PropHand</em></a>, our open-source force-aware dexterous hand, is now online!</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2026</span>
+    <span class="news-text">Our work <em>PropHand: A Force-Aware Open-Source Dexterous Robot Hand</em> targets IEEE/RSJ IROS 2026.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">Aug 2025</span>
+    <span class="news-text">Started my Master's in Mechanical Engineering at Carnegie Mellon University, advised by <a href="https://ichnow.ski/" target="_blank">Jeffrey Ichnowski</a> in the Robotics Institute.</span>
+  </div>
 </div>
 
 ---
