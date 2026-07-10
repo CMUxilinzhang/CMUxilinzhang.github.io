@@ -32,7 +32,8 @@ Before coming to CMU, I completed my undergraduate studies at **[Tianjin Univers
 }
 .news-item:last-child { margin-bottom: 0; }
 .news-date {
-  flex: 0 0 84px;
+  flex: 0 0 92px;
+  white-space: nowrap;
   color: #d9534f;
   font-weight: bold;
   font-variant-numeric: tabular-nums;
