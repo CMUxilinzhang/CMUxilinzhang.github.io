@@ -48,7 +48,7 @@ Before coming to CMU, I completed my undergraduate studies at **[Tianjin Univers
   <!-- Add new items at the top. Format: <div class="news-item"><span class="news-date">DATE</span><span class="news-text">NEWS</span></div> -->
   <div class="news-item">
     <span class="news-date">Jul 2026</span>
-    <span class="news-text">The project page for <a href="https://cmuxilinzhang.github.io/prophand/" target="_blank"><em>PropHand</em></a>, our open-source force-aware dexterous hand, is now online!</span>
+    <span class="news-text">The project page for <a href="https://prophand.github.io/" target="_blank"><em>PropHand</em></a>, our open-source force-aware dexterous hand, is now online!</span>
   </div>
   <div class="news-item">
     <span class="news-date">2026</span>
@@ -133,9 +133,9 @@ Before coming to CMU, I completed my undergraduate studies at **[Tianjin Univers
     </div>
     <div class="pub-venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026</div>
     <div class="pub-links">
-      <a href="https://cmuxilinzhang.github.io/prophand/" target="_blank">[Website]</a>
+      <a href="https://prophand.github.io/" target="_blank">[Website]</a>
       <a href="{{ site.baseurl }}/files/prophand.pdf" target="_blank">[Paper]</a>
-      <a href="https://cmuxilinzhang.github.io/prophand/#tasks" target="_blank">[Video]</a>
+      <a href="https://prophand.github.io/#tasks" target="_blank">[Video]</a>
     </div>
   </div>
 </div>
